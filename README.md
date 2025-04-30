@@ -1,53 +1,71 @@
-🔍 Building a Transformer Language Model from Scratch
-The goal of this project was not just to replicate GPT behavior, but to truly understand the inner workings of transformer-based language models — layer by layer — starting from the very basics: a bigram model.
+<div align="center">
 
-🚀 Project Objectives
+# 🔧 Transformer Language Model from Scratch
 
-✅ Build a Transformer-based Language Model from the ground up using PyTorch.
+**A hands-on journey into building GPT-style models starting from a simple bigram implementation — step by step, layer by layer.**
 
-✅ Understand and implement core components of the Transformer architecture:
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)](https://pytorch.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.23+-013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-Self-Attention
 
-Multi-Head Attention
+</div>
 
-Positional Encoding
+---
 
-Layer Normalization
+## 📌 Project Overview
 
-Feedforward Networks
+The objective of this project was **not merely to replicate GPT-like capabilities**, but to **build a deep understanding** of how transformer-based models work — from first principles.
 
-✅ Develop iteratively, starting from a bigram model and scaling towards GPT-like functionality.
+We **start small**, with a bigram language model, and **incrementally scale up** to a transformer architecture capable of generating coherent sequences.
 
-✅ Explore the computational and mathematical foundations of transformer models.
+---
 
-✅ Train and test the model on simple text data to evaluate its generative capabilities.
+## 🎯 Core Objectives
 
-🧠 Domains Explored
-Transformer Architecture
+- 🔨 Build a transformer-based language model from scratch using **PyTorch**
+- 🧠 Implement and understand each core component of the transformer:
+  - Self-Attention & Multi-Head Attention  
+  - Positional Encoding  
+  - Feedforward Layers & Layer Normalization
+- 📚 Dive into the **mathematical and computational principles** behind transformers
+- 🧪 Train the model on small-scale text datasets and test its **generative power**
 
-Natural Language Processing (NLP)
+---
 
-Machine Learning (ML)
+## ⚙️ Technologies & Tools
 
-Artificial Intelligence (AI)
+| Category           | Tools/Libs                                  |
+|-------------------|----------------------------------------------|
+| Language          | Python                                       |
+| Core Libraries    | PyTorch, NumPy                               |
+| Notebook Support  | Jupytext (for version-controlled notebooks)  |
+| Development Env   | Jupyter Notebooks via VS Code or JupyterLab  |
 
-Computational Logic
+---
 
-Deep Learning Fundamentals
+## 🧱 Model Progression
 
-🛠️ Technologies & Tools
-🐍 Programming Language
-Python
+1. **Bigram Language Model** – Simplest form of next-token prediction  
+2. **Self-Attention Mechanism** – Capturing token relationships  
+3. **Multi-Head Attention** – Parallel attention for richer representations  
+4. **Transformer Blocks** – Combining attention, MLP, normalization  
+5. **Stacked Architecture** – More depth, better learning  
+6. **Text Generation** – Evaluate the output on given prompts
 
-📚 Libraries
-PyTorch — Core deep learning framework
+---
+## 🧠 Domains Explored
+✨ Transformer Architecture
 
-NumPy — For low-level numerical operations
+🧬 Natural Language Processing (NLP)
 
-Jupytext — For version-controlled notebooks
+📊 Machine Learning & Deep Learning
 
-💻 Environment
-Jupyter Notebooks (via VS Code or JupyterLab)
+🧮 Computational Mathematics
+
+🤖 Artificial Intelligence
+
+
 
 
