@@ -66,3 +66,5 @@ To run the app locally:
 ```bash
 pip install -r requirements.txt
 streamlit run sgpt.py
+```
+Currently yeah its a bit slow, planning to change the load speed as soon as possible.
