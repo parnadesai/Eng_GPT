@@ -1,0 +1,17 @@
+# Core libraries
+torch>=1.13
+numpy>=1.23
+
+# Streamlit for the web app interface
+streamlit>=1.20
+
+# Jupyter support (optional, for development)
+jupyterlab>=3.0
+jupytext>=1.14
+
+# General utility
+matplotlib>=3.5
+tqdm>=4.64
+
+# For exporting or saving models
+joblib>=1.2
