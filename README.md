@@ -19,6 +19,7 @@
 The objective of this project was **not merely to replicate GPT-like capabilities**, but to **build a deep understanding** of how transformer-based models work — from first principles.
 
 We **start small**, with a bigram language model, and **incrementally scale up** to a transformer architecture capable of generating coherent sequences.
+Link for the app:)->[parnasfirstgpt](https://parnasfirstgpt.streamlit.app/)
 
 ---
 
