@@ -8,7 +8,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)](https://pytorch.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.23+-013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-%23FA0F00.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
-
+[![Streamlit](https://img.shields.io/badge/Streamlit-frontend-e64c2c.svg)](https://streamlit.io/)
 
 </div>
 
@@ -42,6 +42,7 @@ We **start small**, with a bigram language model, and **incrementally scale up**
 | Core Libraries    | PyTorch, NumPy                               |
 | Notebook Support  | Jupytext (for version-controlled notebooks)  |
 | Development Env   | Jupyter Notebooks via VS Code or JupyterLab  |
+| UI Interface      | Streamlit                                    |
 
 ---
 
@@ -55,17 +56,13 @@ We **start small**, with a bigram language model, and **incrementally scale up**
 6. **Text Generation** – Evaluate the output on given prompts
 
 ---
-## 🧠 Domains Explored
-✨ Transformer Architecture
 
-🧬 Natural Language Processing (NLP)
+## 🖥️ Streamlit App
 
-📊 Machine Learning & Deep Learning
+You can interact with the trained character-level transformer model using a lightweight Streamlit interface.
 
-🧮 Computational Mathematics
+To run the app locally:
 
-🤖 Artificial Intelligence
-
-
-
-
+```bash
+pip install -r requirements.txt
+streamlit run sgpt.py
